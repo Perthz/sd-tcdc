@@ -59,12 +59,35 @@ padding-right: 0.15rem;
     box-sizing: border-box;
     height: auto;
     min-height: 120px;
+    margin-bottom: 10px;
+}
+
+.sd-box.sub {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background: #999;
+	color: white;
+	height: 9rem;
+	min-height: 2rem;
+  overflow: hidden;
+  text-overflow: clip ellipsis;
+
+
+/* 	height: 10rem !important; */
+}
+
+.sd-box.sub h5 {
+	margin-top: 10px;
+	line-height: 120%;
+	font-family: sans-serif, 'Sukhumvit Set';
+	padding-right: 1rem;
+	font-size: 1.2rem;
 }
 
 .sd-box h5 {
   line-height: 1 rem;
   font-size: 1.5 rem;
-  margin-top: 2.7rem;
+  margin-top: 1rem;
 }
 
 .sd-box img {
@@ -75,6 +98,19 @@ padding-right: 0.15rem;
 }
 
 
+img.mobile-logo {
+	margin-bottom:  10px;
+	width: 100%; 
+
+}
+
+.fa-search {
+	float: right
+}
+
+.fa-bars {
+	float: left;
+}
 
 
 
