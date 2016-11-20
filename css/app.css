@@ -112,7 +112,11 @@ img.mobile-logo {
 	float: left;
 }
 
-
+.footer {
+	width: 100%;
+	min-height: 4rem;
+	background-color: #999;
+}
 
 /*Target iPad Pro*/
 
