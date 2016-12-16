@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    
+
+
+
 
   </head>
   <body>
@@ -17,17 +23,21 @@
 	 
 	    	<!--small screen  -->
       <div class="row  hide-for-medium"> 
+<!--
 	  	<div class="columns">
 	  		<i class="fa fa-bars" ></i>
 	  	</div>
-	  	<div class="columns">
-        	<img class="mobile-logo" src="http://placehold.it/100x20&text=Logo"/>   
+-->
+	  	<div class="columns-7">
+        	<img class="logo" src="assets/logo.png"/>   
 	  	</div>
+<!--
 	  	<div class="columns">
 		  	
          	<i class="fa fa-search" ></i>
 		
 	  	</div>
+-->
 
       </div>
 
@@ -43,47 +53,43 @@
               
 	      
 	  	<!--medium and large screen -->
-	  <div class="top-bar show-for-medium">
+	  <div class="top-bar show-for-medium top">
 	  <div class="top-bar-left ">
         <ul class="menu">
           <li class="menu-text">
-          		<img src="http://placehold.it/149x38&text=Logo">
+          		<img class="logo" src="assets/logo.png">
 
           </li>
-          <li><a href="#">Service Design</a></li>
-          <li class="active"><a href="#">Process & Methods</a></li>
-          <li><a href="#">Story</a></li>
         </ul>
       </div>
-      <div class="top-bar-right show-for-medium">
-       
-          <input type="text" placeholder="search">
+      <div class="top-bar-right show-for-large">
+       	<ul class="menu">
+          <li><a href="./2a-service-design/">Service Design</a></li>
+          <li class="active"><a href="#">Methods</a></li>
+          <li><a href="./sample-usage/">Sample Usage</a></li>
+          <li><i class="fa fa-search fa-2x hide-for-medium" ></i></li>
+
+        </ul>
        
       </div>
     </div>
   <!-- End Top Bar -->
 
 
-    <div class="row fullWidth">
+    <div class="row">
       
       <div class="large-7">
           
             <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
               <ul class="orbit-container">
+<!--
                 <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
                 <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+-->
                 <li class="is-active orbit-slide">
-                  <img class="orbit-image" src="http://placehold.it/1024x520&text=1" alt="Space">
-                  <span class="orbit-caption"><p>Service Design #1</p></span>
+                  <a href="#" data-open="heroModal"><img class="orbit-image" src="assets/double-diamond.svg" alt="Diagram"></a>
                 </li>
-                <li class="orbit-slide">
-                  <img class="orbit-image" src="http://placehold.it/1024x520&text=2" alt="Space">
-                  <span class="orbit-caption"><p>Service Design #2</p></span>
-                </li>
-                <li class="orbit-slide">
-                  <img class="orbit-image" src="http://placehold.it/1024x520&text=3" alt="Space">
-                  <span class="orbit-caption"><p>Service Design #3</p></span>
-                </li>
+               
               </ul>
                <!--<nav class="orbit-bullets">
                 <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
@@ -99,178 +105,284 @@
     </div>
 
 
-    <div class="row fullWidth align-stretch large-unstack">
+    <div class="row align-stretch medium-unstack sevencolumns">
       
       <!--Column 1-->
-      <div class="columns">
-       <div class="sd-box">
-        <img src="http://placehold.it/64x64">
-        <h5>00.INITIATE</h5>
+      <div class="columns initiate">
+       <div class="sd-box main">
+        <img src="assets/initiate.svg">
+        <h5>INITIATE</h5>
        </div>
-        <div class="sd-box sub">
-        <h5>0.1</h5>
-        <h5>ตารางวิเคราะห์แนวโน้ม <br> (Trends Matrix)</h5>
+        <div class="sd-box sub level-one">
+        
+        <h5>ตารางวิเคราะห์แนวโน้ม</h5> <p>(Trends Matrix)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>0.2</h5>
-        <h5>ตารางวิเคราะห์คู่แข่ง <br> (Competitor Analysis)</h5>
+        <div class="sd-box sub level-two">
+        
+        <h5>ตารางวิเคราะห์คู่แข่ง </h5><p>(Competitor Analysis)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>0.3</h5>
-        <h5>เป้าหมายโครงการ <br> (Intent Statement)</h5>
+        <div class="sd-box sub level-three">
+        
+        <h5>เป้าหมายโครงการ </h5><p>(Intent Statement)</p>
        </div>
       </div>
       <!--Column 2-->
-      <div class="columns">
-       <div class="sd-box">
-        <img src="http://placehold.it/64x64">
-        <h5>01.DISCOVER</h5>
+      <div class="columns discover">
+       <div class="sd-box main">
+         <img src="assets/discover.svg">
+        <h5>DISCOVER</h5>
        </div>
-        <div class="sd-box sub">
-        <h5>1.1</h5>
-        <h5>การสัมภาษณ์ตามบริบท <br> (Contextual Interview)</h5>
+        <div class="sd-box sub level-one">
+        
+        <h5>การสัมภาษณ์ตามบริบท </h5><p>(Contextual Interview)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>1.2</h5>
-        <h5>สังเกตการณ์ด้วย POEMS <br> (POEMS Framework)</h5>
+        <div class="sd-box sub level-two">
+        
+        <h5>สังเกตการณ์ด้วย POEMS </h5><p>(POEMS Framework)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>1.3</h5>
-        <h5>การจัดกลุ่มรูปภาพ<br> (Image Sorting)</h5>
+        <div class="sd-box sub level-three">
+        
+        <h5>การจัดกลุ่มรูปภาพ</h5><p>(Image Sorting)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>1.4</h5>
-        <h5>การวิจัยกลุ่มชาติพันธ์ด้วยอุปกรณ์พกพา <br> (Mobile Ethnography)</h5>
+        <div class="sd-box sub level-four">
+       
+        <h5>การวิจัยกลุ่มชาติพันธ์ด้วยอุปกรณ์พกพา </h5><p>(Mobile Ethnography)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>1.5</h5>
-        <h5>การวิจัยผ่านระบบทางไกล <br> (Remote Research)</h5>
+        <div class="sd-box sub level-five">
+       
+        <h5>การวิจัยผ่านระบบทางไกล </h5><p>(Remote Research)</p>
        </div>
 
       </div>
 
 <!--columns 3-->
-      <div class="columns">
-       <div class="sd-box">
-        <img src="http://placehold.it/64x64">
-        <h5>02.DEFINE</h5>
+      <div class="columns define">
+       <div class="sd-box main">
+        <img src="assets/define.svg">
+        <h5>DEFINE</h5>
        </div>
-        <div class="sd-box sub">
-        <h5>2.1</h5>
-        <h5>การสังเกตการณ์เพื่อความเข้าใจเชิงลึก <br> (Observation to Insights)</h5>
+        <div class="sd-box sub level-one">
+       
+        <h5>การสังเกตการณ์เพื่อความเข้าใจเชิงลึก </h5><p>(Observation to Insights)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>2.2</h5>
-        <h5>แผนผังของผู้มีส่วนร่วม <br> (Stakeholder Map)</h5>
+        <div class="sd-box sub level-two">
+      
+        <h5>แผนผังของผู้มีส่วนร่วม </h5><p>(Stakeholder Map)</p>
        </div>
-       <div class="sd-box sub">
-        <h5>2.3</h5>
-        <h5>การสร้างผู้ใช้จำลอง <br> (Persona)</h5>
+       <div class="sd-box sub level-three">
+       
+        <h5>การสร้างผู้ใช้จำลอง </h5><p>(Persona)</p>
        </div>
-       <div class="sd-box sub">
-        <h5>2.4</h5>
-        <h5>แผนผังประสบการณ์ของผู้ใช้บริการ<br> (User Journey Map)</h5>
+       <div class="sd-box sub level-four">
+        
+        <h5>แผนผังประสบการณ์ของผู้ใช้บริการ</h5><p>(User Journey Map)</p>
        </div>
-       <div class="sd-box sub">
-        <h5>2.5</h5>
-        <h5>การสร้างหลักการออกแบบ<br> (Design Principles Generation)</h5>
+       <div class="sd-box sub level-five">
+        
+        <h5>การสร้างหลักการออกแบบ</h5><p>(Design Principles Generation)</p>
        </div>
 
       </div>
 
-      <div class="columns">
-       <div class="sd-box">
-        <img src="http://placehold.it/64x64">
+	
+      <div class="columns brief">
+	    <a href="#" data-open="brief">
+		<div class="sd-box main">
+        <img src="assets/brief.svg">
         <h5>BRIEF</h5>
+       	</div>
+      	</a>
+    
+       <div class="sd-box sub level-one">
+      
+        <h5>การสร้างโจทย์ในการออกแบบ</h5><p>(Design Brief Method)</p>
        </div>
-       <div class="sd-box sub">
-        <h5></h5>
-        <h5>การสร้างโจทย์ในการออกแบบ<br> (Design Brief Method)</h5>
-       </div>
+       
        
       </div>
 
-      <div class="columns">
-       <div class="sd-box">
-        <img src="http://placehold.it/64x64">
-        <h5>03.DEVELOP</h5>
+      <div class="columns develop">
+       <div class="sd-box main">
+        <img src="assets/develop.svg">
+        <h5>DEVELOP</h5>
        </div>
-       <div class="sd-box sub">
-        <h5>3.1</h5>
-        <h5>การร่วมคิดสร้าง <br> (Co-Creation)</h5>
+       <div class="sd-box sub level-one">
+      
+        <h5>การร่วมคิดสร้าง </h5><p>(Co-Creation)</p>
        </div>
-       <div class="sd-box sub">
-        <h5>3.2</h5>
-        <h5>ตารางโครงสร้างการใช้งาน <br> (Morphological Chart)</h5>
+       <div class="sd-box sub level-two">
+       
+        <h5>ตารางโครงสร้างการใช้งาน </h5><p>(Morphological Chart)</p>
        </div>
-       <div class="sd-box sub">
-        <h5>3.3</h5>
-        <h5>ตารางสร้างแนวคิด <br> (Concept Generation Matrix)</h5>
+       <div class="sd-box sub level-three">
+      
+        <h5>ตารางสร้างแนวคิด </h5><p>(Concept Generation Matrix)</p>
        </div>
-       <div class="sd-box sub">
-        <h5>3.4</h5>
-        <h5>การสร้างแผนภูมิแนวคิด <br> (Solution Diagramming)</h5>
+       <div class="sd-box sub level-four">
+       
+        <h5>การสร้างแผนภูมิแนวคิด </h5><p>(Solution Diagramming)</p>
        </div>
-		<div class="sd-box sub">
-        <h5>3.5</h5>
-        <h5>การเล่าเรื่อง <br> (Scenario And Story Telling)</h5>
+		<div class="sd-box sub level-five">
+       
+        <h5>การเล่าเรื่อง </h5><p>(Scenario And Story Telling)</p>
        </div>       
       
       </div>
 
-      <div class="columns">
-       <div class="sd-box">
-        <img src="http://placehold.it/64x64">
-        <h5>04.DELIVER</h5>
+      <div class="columns deliver">
+       <div class="sd-box main">
+        <img src="assets/deliver.svg">
+        <h5>DELIVER</h5>
        </div>
-       <div class="sd-box sub">
-        <h5>4.1</h5>
-        <h5>พุเมตริกซ์ <br> (Pugh Matrix)</h5>
+       <div class="sd-box sub level-one">
+        
+        <h5>พุเมตริกซ์ </h5><p>(Pugh Matrix)</p>
        </div>
-       <div class="sd-box sub">
-        <h5>4.2</h5>
-        <h5>ต้นแบบทดสอบพฤติกรรม<br> (Behavioral Prototyping)</h5>
+       <div class="sd-box sub level-two">
+       
+        <h5>ต้นแบบทดสอบพฤติกรรม</h5><p>(Behavioral Prototyping)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>4.3</h5>
-        <h5>มาตรวัดทัศนคติโดยการจำแนกความหมายคำ<br> (Semantic Differential Scale)</h5>
+        <div class="sd-box sub level-three">
+       
+        <h5>มาตรวัดทัศนคติโดยการจำแนกความหมายคำ</h5><p>(Semantic Differential Scale)</p>
        </div>
-        <div class="sd-box sub">
-        <h5>4.4</h5>
-        <h5>แผนผังงานบริการ<br> (Service Blueprint)</h5>
+        <div class="sd-box sub level-four">
+       
+        <h5>แผนผังงานบริการ</h5><p>(Service Blueprint)</p>
        </div>
-         <div class="sd-box sub">
-        <h5>4.5</h5>
-        <h5>แม่แบบโมเดลธุรกิจ<br> (Business Model Canvas)</h5>
+         <div class="sd-box sub level-five">
+       
+        <h5>แม่แบบโมเดลธุรกิจ</h5><p>(Business Model Canvas)</p>
        </div>
        
        
       </div>
 
-      <div class="columns">
-       <div class="sd-box">
-        <img src="http://placehold.it/64x64">
+      <div class="columns launch">
+       <div class="sd-box last">
+        <img src="assets/launch.svg">
         <h5>LAUNCH</h5>
        </div>
-         <div class="sd-box sub">
+         <div class="sd-box sub level-one">
         <h5></h5>
-        <h5>โมเดลการตอบรับของผู้บริโภค<br> (Consumer Response Model)</h5>
+        <h5>โมเดลการตอบรับของผู้บริโภค</h5><p>(Consumer Response Model)</p>
        </div>
       </div>
 
       
     </div>
     
-    <div class="row fullWidth footer">
-	    <div class="large-7"> 
-		    
+     <div class="row widget">
+	    <div class="large-5 download"> 
+		   <i class="fa fa-download" aria-hidden="true"></i>
+		   ดาวโหลดหนังสือคู่มือกระบวนการและวิธีการออกแบบบริการ
+	    </div>
+	    
+	    <div class="large-1">
+		    <ul class="social">
+		  	 <li><i class="fa fa-facebook" aria-hidden="true"></i>
+</li>
+		  	 <li><i class="fa fa-twitter" aria-hidden="true"></i>
+</li>
+		  	 <li><i class="fa fa-google-plus" aria-hidden="true"></i>
+</li>
+		    </ul>
 	    </div>
     </div>
     
+    <div class="row footer black">
+	    <div class="large-7 medium-7"> 
+		    
+		    	<img src="assets/pm-office.svg"/>
+				<img src="assets/tcdc.svg"/>
+		    
+	    </div>
+	    
+    </div>
+    
+     <div class="row fullWidth footer white">
+	    <div class="large-7 medium-7"> 
+		    
+		    	    Copyright © 2016 TCDC (Thailand Creative & Design Center). All rights reserved.
+		    	    
 
+		    
+	    </div>
+	    
+    </div>
+    
+
+    
+   
+
+<div id="videoModal" class="reveal large" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
+		  <div alight="center" class="flex-video">
+
+<!-- 		 <iframe src="//tcdc.groov.asia/แผนผังประสบการณ์/" width="1100" height="600" class="myframe" frameborder="0" allowfullscreen></iframe> -->
+<!-- 		<img src="http://phz.me/GrnF+"/> -->
+		
+		    <div w3-include-html="portfolio.html"></div> 
+
+	 
+ 		 <a class="close-button" data-close>&#215;</a>
+ 		 
+ 	
+		  </div>
+		
+</div>
+
+
+
+<div id="heroModal" class="reveal large" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
+		  <div>
+
+<!-- 		 <iframe src="//tcdc.groov.asia/แผนผังประสบการณ์/" width="1100" height="600" class="myframe" frameborder="0" allowfullscreen></iframe> -->
+<!-- 		<img src="http://phz.me/GrnF+"/> -->
+		
+		    <div w3-include-html="service-design-process.html"></div> 
+
+	 
+ 		 <a class="close-button" data-close>&#215;</a>
+ 		 
+ 	
+		  </div>
+		
+</div>
+
+<div id="brief" class="reveal large" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
+		 
+
+		
+		    <div w3-include-html="brief.html"></div> 
+
+	 
+ 		 <a class="close-button" data-close><img src="assets/close-icon.svg"/></a>
+<!--
+
+			 <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+-->
+  
+
+ 		 
+ 	
+		  </div>
+		
+</div>
+
+
+
+    
+	<script>
+		w3IncludeHTML();
+	</script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/vendor/foundation.js"></script>   
+    <script src="js/jquery.lettering-0.6.1.min.js"></script>
+	<script src="js/jquery.scrollorama.js"></script>
+	 <script src="js/app.js"></script>
+
   </body>
 </html>

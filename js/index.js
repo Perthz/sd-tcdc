@@ -1,0 +1,3 @@
+// Foundation Modal
+
+$(document).foundation();
