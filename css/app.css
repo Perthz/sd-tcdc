@@ -13,6 +13,11 @@
 	height: 3rem;
 }
 
+img.paper {
+	display: block;
+    margin: 0 auto;	
+}
+
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Kanit', sans-serif;
 
@@ -344,6 +349,7 @@ div.row.initiate.box.black {
 	background: black;
 	padding-top: 2rem;
 	padding-left: 2rem;
+	padding-right: 2rem;
 /* 	margin-top: -3rem; */
 	min-height: 6rem;
 }
@@ -367,6 +373,9 @@ div.paper {
 	width: 100%;
 }
 
+.what-it-does {
+	background: #F3F0E8;
+}
 
 
 div.article h5 {
@@ -380,6 +389,7 @@ div.article h5 {
 }
 
 
+
 .sevencolumns{
 	opacity: 1;
 	margin-bottom: 4px;
@@ -390,7 +400,7 @@ div.article h5 {
 .shadow {
 	width: 100%;
 	height: 20px;
-	opacity: 0.75;
+	opacity: 1;
 	box-shadow: 0 10px 6px -8px black;
 	margin-bottom: 20px;
 
@@ -612,6 +622,10 @@ and (max-device-width : 1366px) {
 	border-right: none;
 	}
 	
+	div.sd-box.sub {
+		padding-left: 1.3rem;
+	}
+	
 	.orbit-image {
 		margin: 3rem 0; 
 	}
@@ -624,7 +638,7 @@ and (max-device-width : 1366px) {
 	margin: 2%;
 }
 	
-	div.row.initiate.box {
+	div.row.box {
 		font-size: 60%;
 	}
     
