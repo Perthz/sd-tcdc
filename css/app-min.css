@@ -26,7 +26,13 @@ div.sd-box > p {
 	font-size: 0.8rem;
 } 	
 
+div.download a {
+	color: #8F9192;
+}
 
+div.download a:hover {
+	text-decoration: underline;
+}
 .menu a {
 	color: black;
 	font-size: 1.1rem;
