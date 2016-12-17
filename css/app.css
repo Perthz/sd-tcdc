@@ -586,12 +586,9 @@ and (max-device-width : 1366px) {
 	margin: 2%;
 }
 	
-/*
-		div.sevencolumns .columns {
-		
-	margin-bottom: 1rem;
-}
-*/
+	div.row.initiate.box {
+		font-size: 60%;
+	}
     
 }
 
