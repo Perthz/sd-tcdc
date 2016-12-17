@@ -272,6 +272,19 @@ div.columns.initiate  {
    background: rgb(140, 125, 112);
 }
 
+.three {
+	color: #5B5B5B;
+	background: #F6F4F1;
+/* 	padding: 2rem; */
+
+}
+
+.three > div.columns {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	padding: 2rem;
+}
+
+
 
 .discover {
 	color: #F59243;
@@ -295,8 +308,8 @@ div.columns.initiate  {
 
 .box {
 	width: 100%;
-	height: 8.5rem;
-	min-height: 3rem;
+	
+	min-height: 8.5rem;
 	background: #F4F1E9;
 	padding-top: 1rem;
 	padding-left: 1rem;
@@ -316,7 +329,7 @@ div.row.initiate.box.black {
 	padding-top: 2rem;
 	padding-left: 2rem;
 	margin-top: -3rem;
-	height: 6rem;
+	min-height: 6rem;
 }
 
 div.box h3 {
