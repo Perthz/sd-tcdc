@@ -295,13 +295,28 @@ div.columns.initiate  {
 
 .box {
 	width: 100%;
-/* 	height: 8.5rem; */
+	height: 8.5rem;
 	min-height: 3rem;
 	background: #F4F1E9;
 	padding-top: 1rem;
 	padding-left: 1rem;
 	padding-bottom: 0.3rem;
-	margin-bottom: 2.4rem;
+	margin-bottom: 2.8rem;
+}
+
+div.row.initiate.box.sub {
+	color: white;
+	background-color: #998676;	
+	
+}
+
+div.row.initiate.box.black {
+	color: white;
+	background: black;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	margin-top: -3rem;
+	height: 6rem;
 }
 
 div.box h3 {
