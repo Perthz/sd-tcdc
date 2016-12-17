@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
     
 
 
@@ -29,7 +28,7 @@
 	  	</div>
 -->
 	  	<div class="columns-7">
-        	<img class="logo" src="assets/logo.png"/>   
+        	<img class="logo"  src="assets/logo.png"/>   
 	  	</div>
 <!--
 	  	<div class="columns">
@@ -122,23 +121,30 @@
        	</div>
        	</a>
        
+       <a href="#" data-open="competitor-analysis">
         <div class="sd-box sub level-two">
-        
         <h5>ตารางวิเคราะห์คู่แข่ง </h5><p>(Competitor Analysis)</p>
        </div>
-        <div class="sd-box sub level-three">
-        
+       </a>
+       
+       <a href="#" data-open="intent-statement">
+        <div class="sd-box sub level-three"> 
         <h5>เป้าหมายโครงการ </h5><p>(Intent Statement)</p>
        </div>
+       </a>
       </div>
       <!--Column 2-->
       <div class="columns discover">
+      
+	  <a href="#" data-open="discover">
        <div class="sd-box main">
          <img src="assets/discover.svg">
         <h5>DISCOVER</h5>
        </div>
-        <div class="sd-box sub level-one">
-        
+	  </a>
+	  
+	  
+        <div class="sd-box sub level-one"> 
         <h5>การสัมภาษณ์ตามบริบท </h5><p>(Contextual Interview)</p>
        </div>
         <div class="sd-box sub level-two">
@@ -162,10 +168,14 @@
 
 <!--columns 3-->
       <div class="columns define">
+      
+      <a href="#" data-open="define">
        <div class="sd-box main">
         <img src="assets/define.svg">
         <h5>DEFINE</h5>
        </div>
+      </a>
+       
         <div class="sd-box sub level-one">
        
         <h5>การสังเกตการณ์เพื่อความเข้าใจเชิงลึก </h5><p>(Observation to Insights)</p>
@@ -198,19 +208,23 @@
        	</div>
       	</a>
     
+	  	<a href="#" data-open="brief">
        <div class="sd-box sub level-one">
-      
         <h5>การสร้างโจทย์ในการออกแบบ</h5><p>(Design Brief Method)</p>
        </div>
-       
+	  	</a>
        
       </div>
-
+	  
       <div class="columns develop">
+      	<a href="#" data-open="develop">
        <div class="sd-box main">
         <img src="assets/develop.svg">
         <h5>DEVELOP</h5>
        </div>
+	   </a>
+	   
+	   
        <div class="sd-box sub level-one">
       
         <h5>การร่วมคิดสร้าง </h5><p>(Co-Creation)</p>
@@ -235,10 +249,15 @@
       </div>
 
       <div class="columns deliver">
+      
+      <a href="#" data-open="deliver">
+
        <div class="sd-box main">
         <img src="assets/deliver.svg">
         <h5>DELIVER</h5>
        </div>
+      </a>
+      
        <div class="sd-box sub level-one">
         
         <h5>พุเมตริกซ์ </h5><p>(Pugh Matrix)</p>
@@ -264,10 +283,13 @@
       </div>
 
       <div class="columns launch">
+      
+      <a href="#" data-open="launch">
        <div class="sd-box last">
         <img src="assets/launch.svg">
         <h5>LAUNCH</h5>
        </div>
+      </a>
          <div class="sd-box sub level-one">
         <h5></h5>
         <h5>โมเดลการตอบรับของผู้บริโภค</h5><p>(Consumer Response Model)</p>
@@ -279,11 +301,13 @@
     
      <div class="row widget">
 	    <div class="large-5 download"> 
-		   <i class="fa fa-download" aria-hidden="true"></i>
-		   ดาวโหลดหนังสือคู่มือกระบวนการและวิธีการออกแบบบริการ
+		   <p><img src="assets/download-icon.svg"/>
+		   	ดาวน์โหลดหนังสือคู่มือกระบวนการและวิธีการออกแบบบริการ</p>
+	    	
 	    </div>
 	    
 	    <div class="large-1">
+	    
 		    <ul class="social">
 		  	 <li><i class="fa fa-facebook" aria-hidden="true"></i>
 </li>
@@ -292,6 +316,7 @@
 		  	 <li><i class="fa fa-google-plus" aria-hidden="true"></i>
 </li>
 		    </ul>
+	    	
 	    </div>
     </div>
     
@@ -317,9 +342,9 @@
     </div>
     
 
-    
-   <div w3-include-html="pop-up.html"></div> 
+   
 
+<?php include 'pop-up.php';?>
 
 
     
