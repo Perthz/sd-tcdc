@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Kanit');
+/* @import url('https://fonts.googleapis.com/css?family=Kanit'); */
+
+@font-face {
+    font-family: 'Kanit';
+    src: url(../assets/Kanit-Regular.ttf);
+}
+
+.article {
+	font-weight: 300;
+}
+
+.row.article {
+	height: 3rem;
+}
 
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Kanit', sans-serif;
@@ -250,7 +263,7 @@ div.columns.initiate  {
 
 
 
-.initiate {
+.initiate, div.initiate a {
 	color: #8C7D70;
 	
 }
@@ -282,7 +295,7 @@ div.columns.initiate  {
 
 .box {
 	width: 100%;
-	height: 8.5rem;
+/* 	height: 8.5rem; */
 	min-height: 3rem;
 	background: #F4F1E9;
 	padding-top: 1rem;
@@ -307,7 +320,7 @@ h3 span {
 
 div.article h5 {
 	font-size: 1.5rem;
-	margin-bottom: 1.5rem;
+/* 	margin-bottom: 1.5rem; */
 }
 
 .article {
@@ -551,6 +564,12 @@ and (max-device-width : 1366px) {
 	}
 	
 	img.logo {margin-top: 0.5rem;}
+	
+	.footer div img {
+	width: 3rem;
+	height: auto;
+	margin: 2%;
+}
 	
 /*
 		div.sevencolumns .columns {
