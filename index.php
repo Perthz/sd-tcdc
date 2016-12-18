@@ -321,7 +321,7 @@
     </div>
     
     <div class="row footer black">
-	    <div class="large-7 medium-7"> 
+	    <div class="large-7 medium-7 small-7"> 
 		    
 		    	<img src="assets/pm-office.svg"/>
 				<img src="assets/tcdc.svg"/>

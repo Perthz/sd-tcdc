@@ -562,7 +562,6 @@ ul.social > li {
 .footer {
 	width: 100%;
 	min-height: 4rem;
-	
 	margin: auto;
 	padding-top: 0.3rem;
 	text-align: center;
@@ -683,6 +682,10 @@ and (max-device-width : 1366px) {
 	
 	div.row.box {
 		font-size: 60%;
+	}
+	
+	.footer {
+		text-size: 0.8rem;
 	}
     
 }
