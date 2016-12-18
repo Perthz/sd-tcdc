@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  
-    
-
-
-
 
   </head>
   <body>
@@ -86,7 +82,7 @@
                 <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
 -->
                 <li class="is-active orbit-slide">
-                  <a href="#" data-open="heroModal"><img class="orbit-image" src="assets/double-diamond.svg" alt="Diagram"></a>
+                  <a href="#" data-open="heroModal"><img class="" src="assets/double-diamond.svg" alt="Diagram"></a>
                 </li>
                
               </ul>

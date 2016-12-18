@@ -5,6 +5,8 @@
     src: url(../assets/Kanit-Regular.ttf);
 }
 
+
+
 .article {
 	font-weight: 300;
 }
@@ -687,6 +689,17 @@ and (max-device-width : 1366px) {
 	.footer {
 		text-size: 0.8rem;
 	}
+	
+	.icon {
+		width: 2.8rem;
+		height: 2.8rem;
+	}
+	
+	div.box h3 {
+		font-size: 1.5rem;
+	}
+	
+	h3 span {font-size: 1.2rem;}
     
 }
 
