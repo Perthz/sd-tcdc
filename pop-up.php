@@ -115,6 +115,8 @@
 		
 </div>
 
+<!-- copy here to create new block-->
+
 <div id="launch" class="reveal large" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
 		 		
 		 	<?php include 'launch.html';?>
@@ -125,3 +127,4 @@
 		
 </div>
 
+<!-- copy here  -->
