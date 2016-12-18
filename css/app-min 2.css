@@ -311,24 +311,18 @@ div.columns.initiate  {
 	color: #F59243;
 }
 
-.discover.box.sub {
+div.row.discover.box.sub {
 	color: white;
 	background-color: #F59243;	
 	
 }
 
-.discover .sd-box.sub  {
+.discover .sd-box.sub {
 	background: #F59243;
 }
 
 .define, div.define a {
  	color:	#EF665B;
-}
-
-.define.box.sub {
-	color: white;
-	background-color: #EF665B;
-	
 }
 
 .define .sd-box.sub{
@@ -460,12 +454,6 @@ div.columns.brief > .sd-box.sub
 	color: #0f75b2;
 }
 
-.develop.box.sub {
-	color: white;
-	background-color: #0f75b2;
-	
-}
-
 div.columns.develop {
 	background: #0f75b2;
 }
@@ -479,12 +467,6 @@ div.columns.develop > .sd-box.sub
 	color: #28b099;
 }
 
-.deliver.box.sub {
-	color: white;
-	background-color: #28b099;
-	
-}
-
 div.columns.deliver {
 	background: #28b099;
 }
@@ -496,12 +478,6 @@ div.columns.deliver > .sd-box.sub
 
 .launch, div.launch a {
 	color: #797E7C;
-}
-
-.launch.box.sub {
-	color: white;
-	background-color: #F59243;	
-	
 }
 
 div.columns.launch {
