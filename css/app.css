@@ -5,7 +5,15 @@
     src: url(../assets/Kanit-Regular.ttf);
 }
 
+ul.detail {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
 
+ul.detail > li > i {
+	color: #04AEBA;
+}
 
 .article {
 	font-weight: 300;
