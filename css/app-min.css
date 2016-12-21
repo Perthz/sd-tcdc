@@ -5,6 +5,17 @@
     src: url(../assets/Kanit-Regular.ttf);
 }
 
+
+.blog {
+	padding-left: 1rem;
+}
+img.teacher {
+	width: 150px;
+	float: left;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+}
+
 ul.detail {
 	list-style: none;
 	padding-left: 0;
@@ -64,7 +75,10 @@ div.download a:hover {
 .menu a {
 	color: black;
 	font-size: 1.1rem;
-	
+}
+
+.menu a:hover {
+	opacity: 0.5;
 }
 
 .menu > li > a {
@@ -80,6 +94,8 @@ div.download a:hover {
 	padding-right: 0.3rem;
 	
 }
+
+
 
 .fa {
 	color: #8F9192;
