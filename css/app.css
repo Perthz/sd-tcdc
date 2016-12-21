@@ -75,23 +75,36 @@ div.download a:hover {
 .menu a {
 	color: black;
 	font-size: 1.1rem;
+/* 	padding-bottom: 0.4rem; */
+	padding-left: 0rem;
+	padding-right: 0rem;
+	
 }
 
 .menu a:hover {
 	opacity: 0.5;
+	border-bottom: medium solid #04AEBA;
+	
+
 }
 
 .menu > li > a {
-	padding: 0.7rem 3rem;
+	margin: auto 1.5rem;
+	padding-left: 0rem;
+	padding-right: 0rem;
+	border-bottom: medium solid transparent;
+
+
+
 }
 
 .menu .active > a {
 	color: black;
 	background: none;
-	border-bottom: medium solid black;
-	padding-bottom: 0.4rem;
-	padding-left: 0.3rem;
-	padding-right: 0.3rem;
+	border-bottom: medium solid #04AEBA;
+/* 	margin-top: 0.5rem; */
+	
+	
 	
 }
 

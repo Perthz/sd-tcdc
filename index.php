@@ -59,7 +59,7 @@
       </div>
       <div class="top-bar-right show-for-large">
        	<ul class="menu">
-          <li><a href="./2a-service-design/">Service Design</a></li>
+          <li><a href="./service-design/">Service Design</a></li>
           <li class="active"><a href="#">Methods</a></li>
           <li><a href="./sample-usage/">Sample Usage</a></li>
           <li><i class="fa fa-search fa-2x hide-for-medium" ></i></li>
