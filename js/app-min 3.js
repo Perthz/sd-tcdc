@@ -1,0 +1,1 @@
+$(document).foundation(),$(document).on("scroll",function(){$(document).scrollTop()>=20?$(".orbit-image").css("width","400px"):$(".orbit-image").css("width","")});
