@@ -5,6 +5,11 @@
     src: url(../assets/Kanit-Regular.ttf);
 }
 
+
+div.row > div.article {
+	padding-bottom: 0;
+	margin-top: 2rem;
+}
 ul.logo {
 	list-style: none;
 }
