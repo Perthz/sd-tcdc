@@ -48,26 +48,32 @@
               
 	      
 	  	<!--medium and large screen -->
-	  <div class="top-bar show-for-medium top">
-	  <div class="top-bar-left ">
-        <ul class="menu">
-          <li class="menu-text">
-          		<img class="logo" src="assets/logo.png">
+	  	
+	<div class="row show-for-medium">
+		<div class="column">
+			<div class="top-bar  top">
+				<div class="top-bar-left ">
+					<ul class="menu">
+						<li class="menu-text">
+							<img class="logo" src="assets/logo.png">
 
-          </li>
-        </ul>
-      </div>
-      <div class="top-bar-right show-for-large">
-       	<ul class="menu">
-          <li><a href="./service-design/">Service Design</a></li>
-          <li class="active"><a href="#">Methods</a></li>
-          <li><a href="./sample-usage/">Sample Usage</a></li>
-          <li><i class="fa fa-search fa-2x hide-for-medium" ></i></li>
+						</li>
+					</ul>
+				</div>
+      
+				<div class="top-bar-right show-for-large">
+					<ul class="menu">
+						<li><a href="./service-design/">Service Design</a></li>
+						<li class="active"><a href="#">Methods</a></li>
+						<li><a href="./sample-usage/">Sample Usages</a></li>
+						<li><i class="fa fa-search fa-2x hide-for-medium" ></i></li>
 
-        </ul>
+					</ul>
        
-      </div>
-    </div>
+				</div>
+			</div>
+		</div>
+	</div>
   <!-- End Top Bar -->
 
 
