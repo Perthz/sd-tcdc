@@ -5,6 +5,9 @@
     src: url(../assets/Kanit-Regular.ttf);
 }
 
+ul.logo {
+	list-style: none;
+}
 
 	/* Single Post */
 div.sharedaddy.sd-sharing-enabled, div#jp-relatedposts.jp-relatedposts {

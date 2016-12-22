@@ -17,24 +17,16 @@
    
 	 
 	    	<!--small screen  -->
-      <div class="row  hide-for-medium"> 
 <!--
+      <div class="row  hide-for-medium"> 
+
 	  	<div class="columns">
-	  		<i class="fa fa-bars" ></i>
-	  	</div>
--->
-	  	<div class="columns-7">
         	<img class="logo"  src="assets/logo.png"/>   
 	  	</div>
-<!--
-	  	<div class="columns">
-		  	
-         	<i class="fa fa-search" ></i>
-		
-	  	</div>
--->
+
 
       </div>
+-->
 
 	
 
@@ -49,24 +41,24 @@
 	      
 	  	<!--medium and large screen -->
 	  	
-	<div class="row show-for-medium">
+	<div class="row">
 		<div class="column">
 			<div class="top-bar top">
 				<div class="top-bar-left ">
-					<ul class="menu">
-						<li class="menu-text">
+					<ul class="logo">
+						<li>
 							<a href="/"><img class="logo" src="assets/logo.png"></a>
 
 						</li>
 					</ul>
 				</div>
       
-				<div class="top-bar-right show-for-medium">
-					<ul class="menu">
+				<div class="top-bar-right">
+					<ul class="dropdown vertical medium-horizontal menu">
 						<li><a href="./service-design/">Service Design</a></li>
 						<li class="active"><a href="#">Methods</a></li>
 						<li><a href="./sample-usage/">Sample Usages</a></li>
-						<li><i class="fa fa-search fa-2x hide-for-medium" ></i></li>
+<!-- 						<li><i class="fa fa-search fa-2x hide-for-small" ></i></li> -->
 
 					</ul>
        
@@ -82,18 +74,9 @@
       <div class="large-7">
           
             <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-<!--
-                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
--->
+
                   <a href="#" data-open="heroModal"><img class="" src="assets/double-diamond.svg" alt="Diagram"></a>
-               
-               <!--<nav class="orbit-bullets">
-                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-                <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-              </nav>-->
+              
             </div>
       </div>  
         
