@@ -520,6 +520,10 @@ div.columns.brief > .sd-box.sub
 	
 }
 
+.develop div.sd-box.sub {
+	background: #0f75b2;
+}
+
 div.columns.develop {
 	background: #0f75b2;
 }
@@ -539,6 +543,10 @@ div.columns.develop > .sd-box.sub
 	
 }
 
+.deliver div.sd-box.sub {
+	background: #28b099;
+}
+
 div.columns.deliver {
 	background: #28b099;
 }
@@ -554,8 +562,12 @@ div.columns.deliver > .sd-box.sub
 
 .launch.box.sub {
 	color: white;
-	background-color: #F59243;	
+	background-color: #797E7C;	
 	
+}
+
+.launch div.sd-box.sub {
+	background:#797E7C;
 }
 
 div.columns.launch {
