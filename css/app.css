@@ -683,7 +683,7 @@ div#videoModal.reveal.large {
 and (min-device-width : 1025px) 
 and (max-device-width : 1366px) { 
         .orbit-container {
-    height: 740px; }
+/*     height: 740px; */ }
 
         .column, .columns {
     padding-top: 0rem;

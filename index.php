@@ -51,17 +51,17 @@
 	  	
 	<div class="row show-for-medium">
 		<div class="column">
-			<div class="top-bar  top">
+			<div class="top-bar top">
 				<div class="top-bar-left ">
 					<ul class="menu">
 						<li class="menu-text">
-							<img class="logo" src="assets/logo.png">
+							<a href="/"><img class="logo" src="assets/logo.png"></a>
 
 						</li>
 					</ul>
 				</div>
       
-				<div class="top-bar-right show-for-large">
+				<div class="top-bar-right show-for-medium">
 					<ul class="menu">
 						<li><a href="./service-design/">Service Design</a></li>
 						<li class="active"><a href="#">Methods</a></li>
