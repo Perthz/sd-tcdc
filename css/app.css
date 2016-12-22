@@ -5,6 +5,18 @@
     src: url(../assets/Kanit-Regular.ttf);
 }
 
+
+	/* Single Post */
+div.sharedaddy.sd-sharing-enabled, div#jp-relatedposts.jp-relatedposts {
+	display: none !important;
+}
+
+div.row.workshop {
+	margin-top: 20px;
+}
+
+/* End Single Post */
+
 div.row.article {
 	margin-top: 0;
 }
