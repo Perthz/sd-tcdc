@@ -11,6 +11,7 @@
 	</div>
 
 
+<!--
 	<div aria-hidden="true" aria-labelledby="videoModalTitle" class="reveal large" data-reveal="" id="initiate" role="dialog">
 		<?php include 'initiate.html';?><a class="close-button" data-close=""><img src="assets/close-icon.svg"></a>
 	</div>
@@ -118,6 +119,7 @@
 	<div aria-hidden="true" aria-labelledby="videoModalTitle" class="reveal large" data-reveal="" id="consumer-response-model" role="dialog">
 		<?php include 'consumer-response-model.html';?><a class="close-button" data-close=""><img src="assets/close-icon.svg"></a>
 	</div>
+-->
 
 
 </body>

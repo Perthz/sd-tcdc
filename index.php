@@ -362,13 +362,11 @@
 
    
 
-<?php include 'pop-up.php';?>
+<!-- <?php include 'pop-up.php';?> -->
 
 
     
-	<script>
-		w3IncludeHTML();
-	</script>
+	
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>   
