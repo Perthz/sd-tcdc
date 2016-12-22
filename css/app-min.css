@@ -5,6 +5,9 @@
     src: url(../assets/Kanit-Regular.ttf);
 }
 
+div.row.article {
+	margin-top: 0;
+}
 
 .blog {
 	padding-left: 1rem;
@@ -440,7 +443,7 @@ div.article h5 {
 
 .article {
 	padding: 2rem;	
-	margin-top: 2rem;
+	margin-top: 1.2rem;
 }
 
 
