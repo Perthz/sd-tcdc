@@ -141,7 +141,7 @@ div.download a:hover {
 
 .orbit-container {
   position: relative;
-  height: 500px; }
+/*   height: 500px;  */}
 
 .orbit-caption {
   position: absolute;
@@ -765,6 +765,10 @@ and (max-device-width : 1366px) {
 	}
 	
 	h3 span {font-size: 1.2rem;}
+	
+	div.orbit {
+		margin: 2rem 0;
+	}
     
 }
 
