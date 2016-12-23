@@ -8,7 +8,7 @@
 
 div.row > div.article {
 	padding-bottom: 0;
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 ul.logo {
 	list-style: none;
@@ -466,12 +466,12 @@ div.paper {
 
 div.article h5 {
 	font-size: 1.5rem;
-/* 	margin-bottom: 1.5rem; */
+	margin-top: 0.6rem;
 }
 
 .article {
 	padding: 2rem;	
-	margin-top: 1.2rem;
+	margin-top: 0.5rem;
 }
 
 
