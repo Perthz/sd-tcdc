@@ -403,6 +403,12 @@ div.columns.initiate  {
 	color: #726991;
 }
 
+.brief.box.sub {
+	color: white;
+	background-color: #726991;
+	
+}
+
 .brief div.sd-box.sub {
 	background: #726991;
 }
