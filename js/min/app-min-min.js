@@ -1,0 +1,1 @@
+$(document).foundation(),$(document).ready(function(){var o=$.scrollorama({blocks:".scrollblock"});o.animate("#test",{duration:400,property:"opacity"})});
