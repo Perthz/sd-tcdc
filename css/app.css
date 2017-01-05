@@ -59,7 +59,9 @@ ul.detail > li > i {
 
 img.paper {
 	display: block;
-    margin: 0 auto;	
+    margin: 2rem auto;	
+    box-shadow: 0 10px 6px -8px black;
+
 }
 
 body, h1, h2, h3, h4, h5, h6 {
