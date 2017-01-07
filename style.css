@@ -1,0 +1,222 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+
+
+span.menu-text {
+	color: black;
+}
+
+.fusion-main-menu .current_page_item > a {
+	border-color: #04AEBA !important;
+	
+}
+
+.fusion-main-menu > ul > li > a:hover {
+	border-color: #04AEBA;
+	opacity: 0.5;
+
+}
+
+
+.fusion-main-menu > ul > li > a {
+	border-bottom: 3px solid transparent;
+	border-top: 0px solid transparent !important;
+	height: 4rem !important;
+/* 	padding-right: 1rem !important; */}
+
+.fusion-main-menu .current-menu-parent > a {
+	border-color: #04AEBA !important;
+}
+
+
+.active {
+	border-bottom: 3px solid #04AEBA;
+}
+
+ul.sub-menu {
+	display: none !important;
+}
+
+/* Solve Archive Header + Content Difference */
+
+div.fusion-post-content-container {
+	margin-top: -15px !important;
+}
+
+/* Solve Front Page Blog List */
+
+	/* 	No Date */
+p.fusion-single-line-meta {
+	display: none;
+}
+
+	/* No Padding */
+p {font-size: 1rem;}	
+	
+.fusion-blog-layout-grid .fusion-post-content-wrapper {padding:0;}	
+
+	/* 	More  */
+div.more {
+	width: 130px;
+	height: 40px;
+	font-size: 1.1rem;
+	float: right;
+	margin: auto;
+	padding: 5px 10px;
+	color: #04AEBA;
+	border: 1px solid #04AEBA;
+	border-radius: 5px;
+}
+
+a.more-link {
+	color: #04AEBA;
+}
+
+a.more-link::after {
+	content: none;
+}
+
+div.more:hover {
+	background-color: #04AEBA;
+}
+
+div.more:hover > a {
+	color: white;
+}
+
+h2.blog-shortcode-post-title.entry-title {
+	font-size: 33px !important;
+	line-height: 47px !important;
+	margin-top: 22.110000610351563px;
+	margin-bottom: 22.110000610351563px;
+}
+
+div.es_lablebox, input#es_txt_name_pg.es_textbox_class {
+	display: none;
+}
+
+input#es_txt_email_pg.es_textbox_class {
+	width: 300px;
+	float: left;
+}
+
+.es_msg, .es_textbox {
+	padding: 0;
+}
+
+div.subscribe p {
+	margin-top: 20px;
+}
+
+div.fusion-separator.fusion-full-width-sep.sep-single.sep-solid {
+	margin-top: 20px;
+}
+
+input#es_txt_email_pg.es_textbox_class {
+	border-radius: 5px;
+}
+
+.es_button {
+	padding: 0;
+}
+.es_textbox_button {
+	width: 100px;
+	height: 38px !important;
+	background-color: #04AEBA;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+
+/* 	Sample Usage */
+
+ul.chapter {
+	list-style: none;
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 0;	
+	
+}
+
+ul.chapter li {
+	display: block;
+	float: left;
+	margin-right: 18px;
+    padding: 0;
+    position: relative;
+}
+
+ul.chapter li > a:hover {
+	border-bottom: 3px solid black;
+	opacity: 0.5;
+	padding-bottom: 2px;
+}
+
+ul.chapter li.active > a:hover {
+	border-bottom: none;
+}
+
+ul.chapter li > a {
+	color: black;
+}
+
+a.fusion-button {
+	background-color: white !important;
+}
+
+/*
+a#left.fusion-button.button-flat.button-round.button-large.button-default, a.fusion-button.button-flat.button-round.button-large.button-default.button-1 {
+	padding-left: 0;
+}
+
+a.fusion-button.button-flat.button-round.button-large.button-default.right {
+	padding-right: 0;
+}
+*/
+
+span.fusion-button-text {	color: #04AEBA !important;
+}
+
+/* hide read more */
+
+div.fusion-meta-info {
+	display: none;
+}
+
+p {color: black;}
+
+/* sticky shadow */
+
+.top-layer {
+	z-index: 200;
+
+}
+
+.sticky-activated {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	max-width: 1000px;
+/* 	height: 3.5em; */
+	background: #fff;
+}
+
+.shadow {
+	box-shadow: 0 10px 6px -8px rgba(0,0,0,0.4);	
+	animation: shadow 0.2s;
+
+}
+
+@keyframes shadow {
+    from { box-shadow: 0 10px 6px -8px rgba(0,0,0,0.0); }
+    to   { box-shadow: 0 10px 6px -8px rgba(0,0,0,0.4); }
+}
