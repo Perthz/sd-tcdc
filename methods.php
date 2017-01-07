@@ -1,3 +1,5 @@
+<?php /* Template Name: Methods */ ?>
+
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
@@ -5,13 +7,16 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service Design by TCDC</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="//tcdc.groov.asia/method/css/foundation.css">
+    <link rel="stylesheet" href="//tcdc.groov.asia/method/css/app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  
 
   </head>
   <body>
+  
+  <?php $path = '//tcdc.groov.asia/method/';
+?>
     
   <!-- Start Top Bar -->
    
@@ -20,7 +25,7 @@
 <!--
       <div class="row  hide-for-medium"> 
 	  	<div class="columns">
-        	<img class="logo"  src="assets/logo.png"/>   
+        	<img class="logo"  src="<?php $path ?>assets/logo.png"/>   
 	  	</div>
       </div>
 -->
@@ -37,6 +42,7 @@
               
 	      
 	  	<!--medium and large screen -->
+<!--
 	  	
 	<div class="row">
 		<div class="column">
@@ -44,7 +50,7 @@
 				<div class="top-bar-left ">
 					<ul class="logo">
 						<li>
-							<a href="/"><img class="logo" src="assets/logo.png"></a>
+							<a href="/"><img class="logo" src="<?php $path ?>assets/logo.png"></a>
 
 						</li>
 					</ul>
@@ -57,12 +63,15 @@
 						<li><a href="./sample-usage/">Sample Usages</a></li>
 <!-- 						<li><i class="fa fa-search fa-2x hide-for-small" ></i></li> -->
 
+<!--
 					</ul>
        
 				</div>
 			</div>
 		</div>
 	</div>
+-->
+
   <!-- End Top Bar -->
 
 
@@ -72,7 +81,7 @@
           
             <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
 
-                  <a href="service-design-process.html" data-open="heroModal"><img class="" src="assets/double-diamond.svg" alt="Diagram"></a>
+                  <a href="<?php $path ?>service-design-process.html" data-open="heroModal"><img class="" src="<?php $path ?>assets/double-diamond.svg" alt="Diagram"></a>
               
             </div>
       </div>  
@@ -87,26 +96,26 @@
       <!--Column 1-->
       <div class="columns initiate">
 	   
-     <a href="initiate-full.html" data-open="initiate">
+     <a href="<?php $path ?>initiate-full.html" data-open="initiate">
        <div class="sd-box main">
-        <img src="assets/initiate.svg">
+        <img src="<?php $path ?>assets/initiate.svg">
         <h5>INITIATE</h5>
        </div>
 	   </a>
        
-      <a href="trend-matrix-full.html" data-open="trend-matrix">
+      <a href="<?php $path ?>trend-matrix-full.html" data-open="trend-matrix">
         <div class="sd-box sub level-one">
         <h5>ตารางวิเคราะห์แนวโน้ม</h5> <p>(Trends Matrix)</p>
        	</div>
       </a>
        
-       <a href="competitor-analysis-full.html" data-open="competitor-analysis">
+       <a href="<?php $path ?>competitor-analysis-full.html" data-open="competitor-analysis">
         <div class="sd-box sub level-two">
         <h5>ตารางวิเคราะห์คู่แข่ง </h5><p>(Competitor Analysis)</p>
         </div>
        </a>
        
-       <a href="intent-statement-full.html" data-open="intent-statement">
+       <a href="<?php $path ?>intent-statement-full.html" data-open="intent-statement">
         <div class="sd-box sub level-three"> 
         <h5>เป้าหมายโครงการ </h5><p>(Intent Statement)</p>
         </div>
@@ -115,38 +124,38 @@
       <!--Column 2-->
       <div class="columns discover">
       
-	  <a href="discover-full.html" data-open="discover">
+	  <a href="<?php $path ?>discover-full.html" data-open="discover">
        <div class="sd-box main">
-         <img src="assets/discover.svg">
+         <img src="<?php $path ?>assets/discover.svg">
         <h5>DISCOVER</h5>
        </div>
 	  </a>
 	  
-	  <a href="contextual-interview-full.html" data-open="contextual-interview">
+	  <a href="<?php $path ?>contextual-interview-full.html" data-open="contextual-interview">
         <div class="sd-box sub level-one"> 
         <h5>การสัมภาษณ์ตามบริบท </h5><p>(Contextual Interview)</p>
        </div>
     </a>   
 
-    <a href="poems-framework-full.html" data-open="poems-framework">
+    <a href="<?php $path ?>poems-framework-full.html" data-open="poems-framework">
         <div class="sd-box sub level-two">
         <h5>สังเกตการณ์ด้วย POEMS </h5><p>(POEMS Framework)</p>
        </div>
     </a>
         
-    <a href="image-sorting-full.html" data-open="image-sorting">    
+    <a href="<?php $path ?>image-sorting-full.html" data-open="image-sorting">    
         <div class="sd-box sub level-three">   
         <h5>การจัดกลุ่มรูปภาพ</h5><p>(Image Sorting)</p>
        </div>
     </a>
 
-    <a href="mobile-ethnography-full.html" data-open="mobile-ethnography">
+    <a href="<?php $path ?>mobile-ethnography-full.html" data-open="mobile-ethnography">
         <div class="sd-box sub level-four">
         <h5>การวิจัยกลุ่มชาติพันธ์ด้วยอุปกรณ์พกพา </h5><p>(Mobile Ethnography)</p>
        </div>
     </a>
 
-    <a href="remote-research-full.html" data-open="remote-research">
+    <a href="<?php $path ?>remote-research-full.html" data-open="remote-research">
         <div class="sd-box sub level-five">
         <h5>การวิจัยผ่านระบบทางไกล </h5><p>(Remote Research)</p>
        </div>
@@ -157,38 +166,38 @@
 <!--columns 3-->
       <div class="columns define">
       
-      <a href="define-full.html" data-open="define">
+      <a href="<?php $path ?>define-full.html" data-open="define">
        <div class="sd-box main">
-        <img src="assets/define.svg">
+        <img src="<?php $path ?>assets/define.svg">
         <h5>DEFINE</h5>
        </div>
       </a>
        
-    <a href="observation-to-insights-full.html" data-open="observation-to-insights">
+    <a href="<?php $path ?>observation-to-insights-full.html" data-open="observation-to-insights">
         <div class="sd-box sub level-one">
         <h5>การสังเกตการณ์เพื่อความเข้าใจเชิงลึก </h5><p>(Observation to Insights)</p>
        </div>
     </a>
         
-    <a href="stakeholder-map-full.html" data-open="stakeholder-map">    
+    <a href="<?php $path ?>stakeholder-map-full.html" data-open="stakeholder-map">    
         <div class="sd-box sub level-two">
         <h5>แผนผังของผู้มีส่วนร่วม </h5><p>(Stakeholder Map)</p>
        </div>
     </a>
 
-    <a href="persona-full.html" data-open="persona">   
+    <a href="<?php $path ?>persona-full.html" data-open="persona">   
        <div class="sd-box sub level-three">
        <h5>การสร้างผู้ใช้จำลอง </h5><p>(Persona)</p>
        </div>
     </a>
 
-    <a href="user-journey-map-full.html" data-open="user-journey-map">
+    <a href="<?php $path ?>user-journey-map-full.html" data-open="user-journey-map">
        <div class="sd-box sub level-four">
        <h5>แผนผังประสบการณ์ของผู้ใช้บริการ</h5><p>(User Journey Map)</p>
        </div>
     </a>
 
-    <a href="design-principles-generation-full.html" data-open="design-principles-generation">
+    <a href="<?php $path ?>design-principles-generation-full.html" data-open="design-principles-generation">
        <div class="sd-box sub level-five">
        <h5>การสร้างหลักการออกแบบ</h5><p>(Design Principles Generation)</p>
        </div>
@@ -198,14 +207,14 @@
 	
       <div class="columns brief">
 
-	    <a href="brief-full.html" data-open="brief">
+	    <a href="<?php $path ?>brief-full.html" data-open="brief">
 	    	<div class="sd-box main">
-        <img src="assets/brief.svg">
+        <img src="<?php $path ?>assets/brief.svg">
         <h5>BRIEF</h5>
        	</div>
       </a>
     
-	  	<a href="design-brief-full.html" data-open="design-brief">
+	  	<a href="<?php $path ?>design-brief-full.html" data-open="design-brief">
        <div class="sd-box sub level-one">
         <h5>การสร้างโจทย์ในการออกแบบ</h5><p>(Design Brief Method)</p>
        </div>
@@ -214,38 +223,38 @@
       </div>
 	  
       <div class="columns develop">
-      	<a href="develop-full.html" data-open="develop">
+      	<a href="<?php $path ?>develop-full.html" data-open="develop">
        <div class="sd-box main">
-        <img src="assets/develop.svg">
+        <img src="<?php $path ?>assets/develop.svg">
         <h5>DEVELOP</h5>
        </div>
 	   </a>
 	   
-	   <a href="co-creation-full.html" data-open="co-creation">
+	   <a href="<?php $path ?>co-creation-full.html" data-open="co-creation">
        <div class="sd-box sub level-one">
        <h5>การร่วมคิดสร้าง </h5><p>(Co-Creation)</p>
        </div>
      </a>
        
-     <a href="morphological-chart-full.html" data-open="morphological-chart">
+     <a href="<?php $path ?>morphological-chart-full.html" data-open="morphological-chart">
        <div class="sd-box sub level-two">
        <h5>ตารางโครงสร้างการใช้งาน </h5><p>(Morphological Chart)</p>
        </div>
      </a>
 
-     <a href="concept-generation-matrix-full.html" data-open="concept-generation-matrix">
+     <a href="<?php $path ?>concept-generation-matrix-full.html" data-open="concept-generation-matrix">
         <div class="sd-box sub level-three">
         <h5>ตารางสร้างแนวคิด </h5><p>(Concept Generation Matrix)</p>
        </div>
      </a>
 
-     <a href="solution-diagramming-full.html" data-open="solution-diagramming">
+     <a href="<?php $path ?>solution-diagramming-full.html" data-open="solution-diagramming">
         <div class="sd-box sub level-four">  
         <h5>การสร้างแผนภูมิแนวคิด </h5><p>(Solution Diagramming)</p>
         </div>
      </a>
 
-     <a href="scenario-and-story-telling-full.html" data-open="scenario-and-story-telling">
+     <a href="<?php $path ?>scenario-and-story-telling-full.html" data-open="scenario-and-story-telling">
 		    <div class="sd-box sub level-five">
         <h5>การเล่าเรื่อง </h5><p>(Scenario And Story Telling)</p>
         </div>       
@@ -255,38 +264,38 @@
 
      <div class="columns deliver">
       
-     <a href="deliver-full.html" data-open="deliver">
+     <a href="<?php $path ?>deliver-full.html" data-open="deliver">
         <div class="sd-box main">
-        <img src="assets/deliver.svg">
+        <img src="<?php $path ?>assets/deliver.svg">
         <h5>DELIVER</h5>
         </div>
       </a>
       
-     <a href="pugh-matrix-full.html" data-open="pugh-matrix">
+     <a href="<?php $path ?>pugh-matrix-full.html" data-open="pugh-matrix">
         <div class="sd-box sub level-one">
         <h5>พุเมตริกซ์ </h5><p>(Pugh Matrix)</p>
         </div>
      </a>
 
-     <a href="behavioral-prototyping-full.html" data-open="behavioral-prototyping">
+     <a href="<?php $path ?>behavioral-prototyping-full.html" data-open="behavioral-prototyping">
         <div class="sd-box sub level-two">
         <h5>ต้นแบบทดสอบพฤติกรรม</h5><p>(Behavioral Prototyping)</p>
         </div>
      </a>   
 
-     <a href="semantic-differential-scale-full.html" data-open="semantic-differential-scale">
+     <a href="<?php $path ?>semantic-differential-scale-full.html" data-open="semantic-differential-scale">
         <div class="sd-box sub level-three">
         <h5>มาตรวัดทัศนคติโดยการจำแนกความหมายคำ</h5><p>(Semantic Differential Scale)</p>
         </div>
      </a>
 
-     <a href="service-blueprint-full.html" data-open="service-blueprint">
+     <a href="<?php $path ?>service-blueprint-full.html" data-open="service-blueprint">
         <div class="sd-box sub level-four">
         <h5>แผนผังงานบริการ</h5><p>(Service Blueprint)</p>
         </div>
      </a>
 
-     <a href="business-model-canvas-full.html" data-open="business-model-canvas">
+     <a href="<?php $path ?>business-model-canvas-full.html" data-open="business-model-canvas">
         <div class="sd-box sub level-five">
         <h5>แม่แบบโมเดลธุรกิจ</h5><p>(Business Model Canvas)</p>
        </div>
@@ -296,14 +305,14 @@
 
      <div class="columns launch">
       
-     <a href="launch-full.html" data-open="launch">
+     <a href="<?php $path ?>launch-full.html" data-open="launch">
         <div class="sd-box last">
-        <img src="assets/launch.svg">
+        <img src="<?php $path ?>assets/launch.svg">
         <h5>LAUNCH</h5>
         </div>
      </a>
          
-     <a href="consumer-response-model-full.html" data-open="consumer-response-model">
+     <a href="<?php $path ?>consumer-response-model-full.html" data-open="consumer-response-model">
         <div class="sd-box sub level-one">
         <h5>โมเดลการตอบรับของผู้บริโภค</h5><p>(Consumer Response Model)</p>
         </div>
@@ -316,10 +325,9 @@
     
      <div class="row widget">
 	    <div class="large-5 download"> 
-		  <a href="#">
-		   <img src="assets/download-icon.svg"/>
-		   	ดาวน์โหลดหนังสือคู่มือกระบวนการและวิธีการออกแบบบริการ
-		  </a>
+		   <p><img src="<?php $path ?>assets/download-icon.svg"/>
+		   	ดาวน์โหลดหนังสือคู่มือกระบวนการและวิธีการออกแบบบริการ</p>
+	    	
 	    </div>
 	    
 	    <div class="large-1">
@@ -339,8 +347,8 @@
     <div class="row footer black">
 	    <div class="large-7 medium-7 small-7"> 
 		    
-		    	<img src="assets/pm-office.svg"/>
-				<img src="assets/tcdc.svg"/>
+		    	<img src="<?php $path ?>assets/pm-office.svg"/>
+				<img src="<?php $path ?>assets/tcdc.svg"/>
 		    
 	    </div>
 	    
@@ -349,7 +357,7 @@
      <div class="row fullWidth footer white">
 	    <div class="large-7 medium-7"> 
 		    
-		    	    Copyright © 2017 TCDC (Thailand Creative & Design Center). All rights reserved.
+		    	    Copyright © 2016 TCDC (Thailand Creative & Design Center). All rights reserved.
 		    	    
 
 		    
@@ -364,12 +372,12 @@
 
     
 	
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>   
-    <script src="js/jquery.lettering-0.6.1.min.js"></script>
-	<script src="js/jquery.scrollorama.js"></script>
-	 <script src="js/app.js"></script>
+    <script src="//tcdc.groov.asia/method/js/vendor/jquery.js"></script>
+    <script src="//tcdc.groov.asia/method/js/vendor/what-input.js"></script>
+    <script src="//tcdc.groov.asia/method/js/vendor/foundation.js"></script>   
+    <script src="//tcdc.groov.asia/method/js/jquery.lettering-0.6.1.min.js"></script>
+	<script src="//tcdc.groov.asia/method/js/jquery.scrollorama.js"></script>
+	 <script src="//tcdc.groov.asia/method/js/app.js"></script>
 
   </body>
 </html>

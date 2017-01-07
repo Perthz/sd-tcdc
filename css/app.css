@@ -32,7 +32,7 @@ div.row.article {
 .blog {
 	padding-left: 1rem;
 }
-img.teacher {
+div.teacher img {
 	width: 150px;
 	float: left;
 	margin-right: 2rem;
@@ -59,7 +59,9 @@ ul.detail > li > i {
 
 img.paper {
 	display: block;
-    margin: 0 auto;	
+    margin: 2rem auto;	
+    box-shadow: 0 10px 6px -8px black;
+
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -783,9 +785,31 @@ and (max-device-width : 1366px) {
 	
 	div.orbit {
 		margin: 2rem 0;
-	}
-	
-	
-    
+	}   
 }
 
+/* making of sticky top bar  */
+div.sticky {
+	padding: 1rem 2rem;
+	position: fixed;
+	width: 100%;
+	max-width: 1000px;
+	height: 3.5em;
+	background: #fff;
+	z-index: 100;
+}
+
+div.shadow {
+	box-shadow: 0 10px 6px -8px rgba(0,0,0,0.4);	
+	animation: fadein 0.2s;
+
+}
+
+@keyframes fadein {
+    from { box-shadow: 0 10px 6px -8px rgba(0,0,0,0.0); }
+    to   { box-shadow: 0 10px 6px -8px rgba(0,0,0,0.4); }
+}
+
+.orbit-image  {
+	margin-top: 3rem;
+}
