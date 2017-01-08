@@ -13,7 +13,7 @@
 	
 <!-- Cut Area Above -->
 
-<hr class="modal"/>
+
 
 <div class="blog">
 
