@@ -220,14 +220,10 @@ img.logo {
 div.sd-box.main {
 /* 	border-left: 1px solid #fcfcfc; */
 	border-right: 1px solid #fcfcfc;
-	border-bottom: 1px solid black;	
-
+/* 	border-bottom: 1px solid rgba(0,0,0,0.4);	 */
 }
 
-.last {
-	border-bottom: 1px solid black;	
 
-}
 
 div.sd-box {
     padding-top: 1rem;
@@ -742,12 +738,12 @@ and (max-device-width : 1366px) {
 
 
 @media screen and (max-width: 39.9375em) {
+	
   .orbit-caption p {
     font-size: 12px;
     font-weight: 400; }
     
     div.sd-box.main {
-
 	border-right: none;
 	}
 	
@@ -755,9 +751,7 @@ and (max-device-width : 1366px) {
 		padding-left: 1.3rem;
 	}
 	
-	.orbit-image {
-		margin: 3rem 0; 
-	}
+
 	
 	img.logo {margin-top: 0.5rem;}
 	
