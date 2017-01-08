@@ -11,8 +11,13 @@
   </head>
 <body>
 	
-<!-- Cut Area Above -->
-
+<div class="row">
+	<div class="column">
+		<div id="sticky" class="sticky">
+		<a class="back" href="../methods/">&lt; Service Design Process</a> 
+		</div>
+	</div>
+</div>
 
 
 <div class="blog">
