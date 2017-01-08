@@ -645,23 +645,25 @@ ul.social > li {
 
 .footer {
 	width: 100%;
-	min-height: 4rem;
+	min-height: 2rem;
 	margin: auto;
-	padding-top: 0.3rem;
+	padding-top: 0.5rem;
 	text-align: center;
+	vertical-align: middle;
 	height: auto;
 	box-sizing: border-box;
 
 }
 
 .footer.black {
-	background-color: #2F2922;
+	background-color: black;
 	z-index: 100;
 }
 
 .footer.white {
 	background-color: #fff;
-	font-weight: 300;
+	color: #8c8989;
+	font-size: 12px;
 }
 
 .footer div img {
@@ -797,6 +799,7 @@ div.sticky {
 	height: 3.5em;
 	background: #fff;
 	z-index: 100;
+	
 }
 
 div.shadow {
@@ -811,5 +814,11 @@ div.shadow {
 }
 
 .orbit-image  {
-	margin-top: 3rem;
+	margin-top: 2rem;
+}
+
+.sd-head {
+	padding: 1rem 2rem;
+	margin-top: 2rem;
+	margin-bottom: -2rem;
 }
