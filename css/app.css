@@ -720,14 +720,13 @@ and (max-device-width : 1366px) {
 	
 	.sd-box.sub {
 		padding-left: 0.2rem;
-		height: 143px;
+		height: 7rem;
 	}
 	
 	div.sd-box {
 		text-align: center;
-		height: 143px;
+		height: 7rem;
 		padding-left: 0;
-		padding-top: 2.2rem;
 	}
 	.sd-box img {
 		float: none;
