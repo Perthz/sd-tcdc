@@ -479,9 +479,8 @@ div.article h5 {
 
 
 .sevencolumns{
-	opacity: 1;
 	margin-bottom: 4px;
-	box-shadow: 0 10px 6px -8px rgba(0,0,0,0.4);	
+	box-shadow: 0 10px 6px -8px rgba(0,0,0,1);	
 	
 }
 
