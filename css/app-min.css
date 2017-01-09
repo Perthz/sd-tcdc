@@ -221,12 +221,16 @@ div.sd-box.main {
 /* 	border-left: 1px solid #fcfcfc; */
 	border-right: 1px solid #fcfcfc;
 	border-bottom: 1px solid black;	
+	box-shadow: none;
 
 }
 
 .last {
 	border-bottom: 1px solid black;	
+}
 
+div.sd-box.last {
+	box-shadow: none;
 }
 
 div.sd-box {
