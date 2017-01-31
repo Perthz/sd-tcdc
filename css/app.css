@@ -32,7 +32,7 @@ div.row.article {
 .blog {
 	padding-left: 1rem;
 }
-div.teacher img {
+div.teacher img, img.teacher {
 	width: 150px;
 	float: left;
 	margin-right: 2rem;
@@ -634,9 +634,13 @@ div.widget {
 }
 
 ul.social {
+	float: right;
+	margin-right: 1rem;
 	list-style-type: none;
+/*
 	margin: 0;
     padding: 0;
+*/
     overflow: hidden;
 }
 
@@ -826,4 +830,12 @@ div.shadow {
 	padding: 1rem 2rem;
 	margin-top: 2rem;
 	margin-bottom: -2rem;
+}
+
+/* hack avada footer */
+
+/* Bullet Font Weight */
+
+li {
+	font-weight: 300;
 }
