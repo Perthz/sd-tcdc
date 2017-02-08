@@ -7,7 +7,7 @@ $(document).on('scroll', function() {
     $('.orbit-image').css('width', '1000'-$(document).scrollTop());
     $('#sticky').addClass('shadow');
   } else {
-//     $('.orbit-image').css('width', '1000');
+    $('.orbit-image').css('width', '1000');
     $('#sticky').removeClass('shadow');
   }
 });

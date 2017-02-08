@@ -381,7 +381,7 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  -webkit-font-smoothing: antialiased;
+/*   -webkit-font-smoothing: antialiased; */
   -moz-osx-font-smoothing: grayscale; }
 
 img {

@@ -1,1 +1,1 @@
-$(document).foundation(),$(document).ready(function(){var o=$.scrollorama({blocks:".scrollblock"});o.animate("#test",{duration:400,property:"opacity"})});
+$(document).foundation(),$(document).on("scroll",function(){$(document).scrollTop()>=20?($(".orbit-image").css("width","1000"-$(document).scrollTop()),$("#sticky").addClass("shadow")):($(".orbit-image").css("width","1000"),$("#sticky").removeClass("shadow"))});
