@@ -2,12 +2,7 @@
 
 @font-face {
     font-family: 'Kanit';
-/*     src: url(../assets/Kanit-Regular.ttf); Regular Font */ 
-	src: url(../assets/Kanit-Book.woff2);
-
-
-
-/*     src: url(https://fonts.gstatic.com/s/kanit/v1/H2uw-adGyIIXNapOSlw5XRkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2'); */
+    src: url(../assets/Kanit-Regular.ttf);
 }
 
 
