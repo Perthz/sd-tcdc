@@ -16,3 +16,8 @@
 app.css
 
 - add box-shadow & margin to img.paper
+
+
+## 19 Mar 17
+
+- เพิ่ม img.teacher ใน app.css 
